@@ -1,1 +1,1 @@
-https://github.com/Anageron/ono-tebe-nado-
+https://github.com/Anageron/ono-tebe-nado-fd
