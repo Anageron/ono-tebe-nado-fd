@@ -26,8 +26,7 @@
 }
 
 .header__menu-item_active .header__menu-link {
-
-  border-bottom:none;
+  border-bottom: none;
 }
 .header__logo {
   display: block;
@@ -46,7 +45,7 @@
   max-width: 240px;
   font-size: 18px;
   font-style: normal;
-  line-height: 24px;  
+  line-height: 24px;
 }
 
 .cover {
@@ -147,17 +146,15 @@
   width: 334px;
   min-height: 596px;
   z-index: 0;
-  
 }
 
 .card-link .card {
   height: 100%;
 }
 
-.card-link{
+.card-link {
   text-decoration: none;
 }
-
 
 .card {
   text-decoration: none;
@@ -267,7 +264,7 @@
 }
 
 .footer__menu-link_active .footer__menu-link {
-    border-bottom:none;
+  border-bottom: none;
 }
 
 .footer__social-list-item {
