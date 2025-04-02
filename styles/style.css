@@ -7,7 +7,7 @@
 
 .header__menu-list {
   display: flex;
-  gap: 11px;
+  gap: 12px;
   list-style-type: circle;
   list-style-position: inside;
   padding-left: 0px;
@@ -16,9 +16,7 @@
 .header__menu-link {
   color: black;
   font-size: 18px;
-  /* обнулил подчеркивания, добавил бордеры */
-  text-decoration: none;
-  border-bottom: 1px solid #000000;
+  text-underline-offset:4px;
 }
 
 .header__menu-item_active {
@@ -26,7 +24,7 @@
 }
 
 .header__menu-item_active .header__menu-link {
-  border-bottom: none;
+  text-decoration: none;
 }
 .header__logo {
   display: block;
@@ -46,6 +44,7 @@
   font-size: 18px;
   font-style: normal;
   line-height: 24px;
+  text-underline-offset:4px;
 }
 
 .cover {
@@ -107,7 +106,7 @@
   line-height: 28px;
   text-transform: uppercase;
   word-spacing: 19px;
-}
+  }
 
 .bet__button {
   box-sizing: border-box;
@@ -194,12 +193,11 @@
 
 .lots__look-more-link {
   margin: 30px 0 0 40px;
-  display: inline-block;
+  display: block;
   color: #000000;
   font-style: normal;
   font-size: 20px;
-  text-decoration: none;
-  border-bottom: 1px solid #000000;
+  text-underline-offset:5px;  
 }
 
 .about {
@@ -258,12 +256,12 @@
 .footer__menu-link {
   color: black;
   font-size: 18px;
-  text-decoration: none;
-  border-bottom: 1px solid #000000;
+  
+  text-underline-offset:4px;
 }
 
 .footer__menu-link_active .footer__menu-link {
-  border-bottom: none;
+  text-decoration: none;
 }
 
 .footer__social-list-item {
